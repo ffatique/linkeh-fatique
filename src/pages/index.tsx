@@ -172,7 +172,7 @@ export default function Home(){
         {Bemail == "null"?
           <></>
         :
-          <Link target="_blank" href={"bemail"}>
+          <Link target="_blank" href={"mailto:bemail"}>
             <CiMail size={35} color="black" />
           </Link>
         }
